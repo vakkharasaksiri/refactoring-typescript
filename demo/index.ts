@@ -1,6 +1,7 @@
 // Example usage
 
 import {Ride, generateInvoice} from './invoice'
+import {generateInvoiceHTML} from './invoiceHTML'
 
 /*
 Invoice:
@@ -18,4 +19,7 @@ const rides: Ride[] = [
 ]
 
 const invoice = generateInvoice(rides)
+const invoiceHTML = generateInvoiceHTML(rides)
 console.log(invoice)
+
+console.log(invoiceHTML)
